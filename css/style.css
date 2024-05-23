@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.custom-gray {
+	color: #8C8F93;
+}
+
+.custom-gray:hover {
+	color: #adb0b4;
+}
+
+.cardback {
+	background-color: #8C8F93;
+}
+
+
+.carousel-item img {
+    height: 800px; 
+    object-fit: cover; 
+}

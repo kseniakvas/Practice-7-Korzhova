@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 7</title>
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex ms-auto">
+                    <a class="nav-link custom-gray" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="nav-link custom-gray" href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="nav-link custom-gray" href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <div class="jumbotron text-white d-flex align-items-center justify-content-center" style="border-radius: 0;height: 550px; background-image: url('img/background.jpg');">
+        <div>
+        <h1 class="display-1 text-center">Oksana Korzhova</h1>
+        <h1 class="display-4 text-center">Student of Khmelnytskyi National University <br> Designer</h1>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 id="aboutme" class="text-center mb-4" style="font-size: 46px;">About me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p style="font-size: 26px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ligula libero. Nulla facilisi. Mauris at risus et libero lacinia ultrices. Morbi tempor sapien et risus pulvinar, nec congue nulla pharetra.</p> 
+                <p style="font-size: 26px;">Etiam ac malesuada justo. Integer consequat, eros vitae venenatis efficitur, lectus nisl vehicula odio, nec consectetur purus lectus eget elit. Fusce dapibus justo quis elit tincidunt, sit amet ultricies sapien vehicula.</p> 
+        </div>
+        <div class="col-md-6">
+            <img src="img/f.jpg" class="img-fluid" alt="Your Image">
+        </div>
+    </div>
+    
+    <h2 id="projects" class="text-center mb-4" style="font-size: 46px;">Gallery</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="d-block w-100 img-fluid" src="img/1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="img/2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100 img-fluid" src="img/3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100 img-fluid" src="img/4.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="img/5.jpg" alt="Fifth slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div id="education" class="container my-5">
+        <h2 class="text-center mb-4" style="font-size: 46px;">Education</h2>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Degree/Certificate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor's Degree in Computer Engineering</td>
+                        <td>Khmelnytskyi National University</td>
+                        <td>2027</td>
+                        <td>Bachelor of Science</td>
+                    </tr>
+                    <tr>
+                        <td>CSS/HTML/JS Basic Developer</td>
+                        <td>W3Schools.com</td>
+                        <td>2024</td>
+                        <td>Certificate of Completion</td>
+                    </tr>
+                    <tr>
+                        <td>Master's Degree in Data Science</td>
+                        <td>City of Liars</td>
+                        <td>2023</td>
+                        <td>Master of Science</td>
+                    </tr>
+                    <tr>
+                        <td>Frontend Development Course</td>
+                        <td>Code Academy</td>
+                        <td>2022</td>
+                        <td>Certificate of Completion</td>
+                    </tr>
+                    <tr>
+                        <td>Project Management Certification</td>
+                        <td>Project Management Institute</td>
+                        <td>2021</td>
+                        <td>Project Management Professional (PMP)</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="skills" class="container my-5">
+        <h2 class="text-center mb-4" style="font-size: 46px;">My Skills</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Lorem</div>
+        </div>
+        <div class="progress mt-3">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Lorem</div>
+        </div>
+        <div class="progress mt-3">
+            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">Lorem</div>
+        </div>
+        <div class="progress mt-3">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Lorem</div>
+        </div>
+        <div class="progress mt-3" style="margin-bottom: 3%;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Lorem</div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="height: 400px;">
+                    <div class="card-title-bg cardback text-center text-white py-3 gradient1">
+                        <h5 class="card-title">Creativity</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ut eaque, animi ad enim magnam magni minima error corporis voluptatibus delectus sed suscipit harum, ipsum atque soluta, libero dolor reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="height: 400px;">
+                    <div class="card-title-bg cardback text-center text-white py-3 gradient2">
+                        <h5 class="card-title">Adaptability</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos est iure in natus, error officiis nesciunt recusandae, non asperiores aperiam nisi quasi aspernatur provident nostrum repellendus ad. Ducimus, reiciendis perferendis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="height: 400px;">
+                    <div class="card-title-bg cardback text-center text-white py-3 gradient3">
+                        <h5 class="card-title">Problem Solving</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 20px;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas veniam minus ducimus inventore consectetur dolores harum reprehenderit magni amet. Rem ipsam totam id at eligendi! Aperiam, eaque amet! Asperiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="height: 400px;">
+                    <div class="card-title-bg cardback text-center text-white py-3 gradient4">
+                        <h5 class="card-title">Communication</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur voluptatum nisi, beatae error amet pariatur veritatis facilis necessitatibus iste reiciendis dicta? Deserunt cum veniam dicta nesciunt quaerat rem quod.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="height: 400px;">
+                    <div class="card-title-bg cardback text-center text-white py-3 gradient5">
+                        <h5 class="card-title">Teamwork</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text" style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae temporibus, odio consequatur qui fugiat excepturi consequuntur mollitia fuga iste illum iusto quaerat illo incidunt aspernatur voluptas dolorum eius vel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="container my-5">
+        <h2 class="text-center mb-4" style="font-size: 46px;">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h4>Designer</h4>
+                <p><strong>Company</strong> | January 2022 - Present</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, sint temporibus. Eveniet recusandae perspiciatis, quae cupiditate delectus atque id nam corrupti nihil iusto, accusamus illum similique quasi voluptas ad maxime.</p>
+            </div>
+            <div class="timeline-item">
+                <h4>Designer</h4>
+                <p><strong>Company</strong> | June 2021 - December 2021</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, earum tempora quidem consectetur quis dolor sequi ipsa ut quaerat dicta fugiat exercitationem aut, mollitia cumque eum nulla doloribus perferendis illo.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <h2 class="text-center mb-4 mt-5" style="font-size: 46px;">Contacts</h2>
+    <section id="contacts" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary d-block mx-auto">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/dbcdb45ccb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
